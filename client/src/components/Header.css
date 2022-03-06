@@ -26,11 +26,10 @@
 
 .header-container__search > input {
     width: 350px;
-    font-size: 22px;
+    font-size: 26px;
     background-color: #000000;
     color: #ffffff;
     font-family: "Roboto","Arial",sans-serif;
-    line-height: 24px;
     border-style: none;
     border-radius: 0%;
     margin-right: 5px;

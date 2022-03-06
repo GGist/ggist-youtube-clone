@@ -11,7 +11,7 @@ export default function Header() {
                 </div>
                 <div className="header-container__search">
                     <input type="text" />
-                    <button>Search</button>
+                    <button><img src="logo192.png" height="28px" width="28px" /></button>
                 </div>
                 <div className="header-container__account">
                     <img src="https://ggist-youtube-clone.s3.amazonaws.com/assets/default.webp" height="30px" width="30px" alt="video" />
