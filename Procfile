@@ -1,2 +1,2 @@
-client: cd client && npm start
-server: npm start
+release: cd client && npm run build
+web: npm start
