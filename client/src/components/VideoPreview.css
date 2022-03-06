@@ -1,0 +1,45 @@
+.video-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-preview__icon-data {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.video-preview__img {
+    width: 359px;
+    height: 202px;
+}
+
+.video-preview__img--small {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.video-preview__data {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+    margin-left: 5px;
+}
+
+.video-preview__data--small {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.video-preview__data--large {
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+}

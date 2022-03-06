@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react"
-import ReactHeader from "./components/ReactHeader"
-import ReactMainPage from './components/ReactMainPage';
-import ReactSidebar from './components/ReactSidebar';
+import Header from "./components/Header"
+import Home from './components/Home';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <ReactHeader />
-      <div className="main-split">
-        <ReactSidebar />
-        <ReactMainPage />
+      <Header />
+      <div className="app-main">
+        <Sidebar />
+        <Home />
       </div>
     </div>
   );

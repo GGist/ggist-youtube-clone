@@ -1,0 +1,39 @@
+.sidebar-container {
+    background-color: #212121;
+    color: #f8fff1;
+    width: 250px;
+    height: 100%;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar-container > li {
+    padding: 10px 0px 10px 0px;
+}
+
+.sidebar-container__title {
+    color: #aaaa9d;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.sidebar-container__data {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    column-gap: 10px;
+}
+
+.sidebar-container--selectable:hover {
+    background-color: #383838;
+}
+
+.subscription--img {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+}

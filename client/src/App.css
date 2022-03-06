@@ -1,5 +1,4 @@
-.main-split {
-  height: 100%;
+.app-main {
   display: flex;
   flex-direction: row;
 }
